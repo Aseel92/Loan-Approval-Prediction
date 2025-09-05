@@ -49,8 +49,7 @@ The Loan_Status target variable is imbalanced.
 To address this, the Synthetic Minority Over-sampling Technique (SMOTE) is applied to create synthetic samples of the minority class, ensuring the model is not biased.
 
 Model Selection and Training: Several classification models are trained on the preprocessed data:
-Logistic Regression
-Decision Tree Classifier
+Logistic Regression and Decision Tree Classifier
 
 Model Evaluation: Each model's performance is evaluated using metrics such as Accuracy, Precision, Recall, and F1-Score. 
 A Confusion Matrix is also generated for each model to visualize its performance in detail.
